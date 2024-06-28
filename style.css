@@ -13,7 +13,7 @@ body {
     justify-content: center;
     background-color: #151515;
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -22,35 +22,31 @@ a {
     text-decoration: none;
 }
 
-#loading-screen {
-    position: fixed;
+/* TELA DE CARREGAMENTO */
+
+.loading-page{
+    position: absolute; /* Mudei para 'fixed' para garantir que fique sempre visível durante o carregamento */
     top: 0;
     left: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(30,30,30,1) 100%);
+    max-height: 1920px;
+    height: 120vh;
     width: 100%;
-    height: 100%;
-    background-color: #151515;
-    z-index: 1000;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
     align-items: center;
-    overflow: hidden;
+    justify-content: center;
+    z-index: 9999; /* Garantir que a tela de carregamento fique acima de todos os outros elementos */
 }
 
-#loading-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0%;
-    background-color: var(--color-green);
+.img-logo-login{
+    height: 109px;
+    width: 120px;
+    margin-left: -20px;
 }
 
-#loading-text {
-    position: absolute;
-    color: var(--color-white);
-    font-size: 3rem;
-    z-index: 10;
-}
+/* TELA DE CARREGAMENTO */
 
 
 :root {

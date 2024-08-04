@@ -22,10 +22,8 @@ a {
     text-decoration: none;
 }
 
-/* TELA DE CARREGAMENTO */
-
 .loading-page{
-    position: absolute; /* Mudei para 'fixed' para garantir que fique sempre visível durante o carregamento */
+    position: absolute;
     top: 0;
     left: 0;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(30,30,30,1) 100%);
@@ -37,7 +35,7 @@ a {
     gap: 1rem;
     align-items: center;
     justify-content: center;
-    z-index: 9999; /* Garantir que a tela de carregamento fique acima de todos os outros elementos */
+    z-index: 9999; 
 }
 
 .img-logo-login{
@@ -46,14 +44,15 @@ a {
     margin-left: -20px;
 }
 
-/* TELA DE CARREGAMENTO */
-
+/*CORES DEFINIDAS */
 
 :root {
     --color-green: #79df00;
     --color-black: #202020;
     --color-white: #fafafa;
 }
+
+/*CORES DEFINIDAS */
 
 .container {
     display: inline;
@@ -122,6 +121,8 @@ a {
     font-size: 0.8rem;
 }
 
+/*ANIMAÇÃO LADO DO USER */
+
 .loader {
     display: flex;
     justify-content: right;
@@ -144,25 +145,10 @@ a {
     100% {
       background-position: 0% 0%, 50% 0%, 100% 0%
     }
-  }
+}
+
+/*ANIMAÇÃO LADO DO USER */
       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /****************** WIDGET 2 */
 .widget2 {
     width: 100%;
@@ -174,6 +160,8 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+/* SESSÃO DAS HARD SKILL FIM */
 
 .hard-skills {
     display: flex;
@@ -209,7 +197,8 @@ a {
     cursor: pointer;
 }
 
-/* Cores específicas para cada ícone */
+/* CORES PARA CADA ICON */
+
 .skills-icons .fa-html5:hover {
     color: #e34f26;
 }
@@ -242,6 +231,9 @@ a {
     color: #181717;
 }
 
+/* CORES PARA CADA ICON FIM */
+
+/* SESSÃO DAS HARD SKILL FIM */
 
 /****************** WIDGET 3 */
 .widget3 {
@@ -289,7 +281,7 @@ a {
 .img-tread {
     width: 100%;
     height: 100px;
-    background-image: url(/img/VK-LogoTipo2.png);
+    background-image: url(/IMAGENS/MINHA_LOGO/VK-Logo.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -410,7 +402,7 @@ a {
 .spotify h1 {
     font-weight: bold;
     font-size: 1.2rem;
-    color: var(--color-white);
+    color: #55cf24f1;
 }
 
 /****************** WIDGET 6 */

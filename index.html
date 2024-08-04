@@ -5,27 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus links - Volkemann | Dev</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-    <div class="container-loading"><!--TELA DE CARREGAMENTO-->
+    <!--TELA DE CARREGAMENTO-->
+
+    <div class="container-loading"><
         
     </div>
 
     <div class="loading-page">
-        <img class="img-logo-login" src="img/VK-LogoTipo2(1)-LOADING.png" alt="">
+        <img class="img-logo-login" src="/IMAGENS/MINHA_LOGO/VK-LogoTipo2(1)-LOADING.png" alt="">
 
-    </div><!--TELA DE CARREGAMENTO-->
+    </div>
+    
+    <!--TELA DE CARREGAMENTO-->
 
     <div class="container">
         <div class="content">
             <div class="widget1">
                 <div class="info-user">
                     <div class="img-user">
-                        <img src="img/batman-icon.jpg" alt="user">
+                        <img src="/IMAGENS/FOTO_USER/batman-icon.jpg" alt="user">
                     </div>
                     <div class="name-user">
                         <h1>João V. Gomes</h1>
@@ -72,14 +76,14 @@
                 </div>
             </div>
             <div class="widget4">
-                <a href="https://www.rmdeveloper.com.br" class="meu-site" target="_blank">
-                    <img src="img/icon-code.png" alt="web">
+                <a href="" class="meu-site" target="_blank">
+                    <img src="/IMAGENS/ICONS/icon-code.png" alt="web">
                     <h1>Meu site portfolio</h1>
                 </a>
             </div>
             <div class="widget5">
                 <a href="https://open.spotify.com/user/d0znbl6vzmljqrzhvb8pph4ll?si=2ccfd9d015dc4a94" class="spotify" target="_blank">
-                    <img src="img/spotify-logo.png" alt="web">
+                    <img src="/IMAGENS/ICONS/spotify-logo.png" alt="web">
                     <h1>Meu Spotify</h1>
                 </a>
             </div>
@@ -92,20 +96,7 @@
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-    window.addEventListener('load', function() {
-        console.log("Página carregada, aguardando antes de remover tela de carregamento.");
-        setTimeout(function() {
-            const loadingPage = document.querySelector('.loading-page');
-            loadingPage.style.display = 'none';
-
-            const container = document.querySelector('.container');
-            container.style.display = 'block';
-        }, 2000); // 5000 milissegundos = 3 segundos
-    });
-    </script>
-
-    <script src="animacaoLoading.js"></script>
+    <script src="/ANIMAÇÃO JS/animacaoLoading.js"></script>
 </body>
 
 </html>
